@@ -1,0 +1,32 @@
+YAML
+car:
+  color: blue
+  price: $20,000
+------
+JSON
+{
+  "car": {
+     "color": "blue",
+     "price": "$20,000"
+  }
+}
+=======
+lists starting with - in yaml will be [] in json
+==
+
+
+car  color price year
+1    red
+2    blue
+3    green
+
+====
+car.color
+bus.price
+===
+anything within curly braces is a dictionary
+==
+https://kodekloud.com/p/json-path-quiz
+==
+
+
